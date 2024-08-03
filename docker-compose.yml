@@ -2,13 +2,13 @@ version: '3.9'
 
 services:
   movies:
-    image: devaraj2002/recharge:latest
+    image: devaraj2002/movies:latest
     ports:
       - "81:80"
     deploy:
       replicas: 2
   recharge:
-    image: devaraj2002/movies:latest
+    image: devaraj2002/recharge:latest
     ports:
       - "82:80"
     deploy:
