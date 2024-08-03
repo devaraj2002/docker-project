@@ -6,12 +6,12 @@ sudo apt update
 
 #java --version
 
-
+apt install openjdk-21-jre-headless -y
 # install java dependency to install jenkins
 
-sudo apt install default-jre -y
+#sudo apt install default-jre -y
 
-sudo apt install default-jdk -y
+#sudo apt install default-jdk -y
 # java --version
   
 #Add the repository key to the system
