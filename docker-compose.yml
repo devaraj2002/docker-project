@@ -6,10 +6,10 @@ services:
     ports:
       - "81:80"
     deploy:
-      --replicas=3
+      replicas: 2
   recharge:
     image: devaraj2002/movies:latest
     ports:
       - "82:80"
     deploy:
-      --replicas=3
+      replicas: 2
