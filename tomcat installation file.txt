@@ -16,6 +16,8 @@ sudo vi /opt/tomcat/conf/tomcat-users.xml
 
 #<role rolename="admin-gui" />
 #<user username="admin" password="admin_password" roles="manager-gui,admin-gui" />
+##<user username="tomcat" password="tomcat" roles="manager-gui,admin-gui" />
+
 #==========================================
 
 #=====================================================
