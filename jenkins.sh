@@ -6,7 +6,7 @@ sudo apt update
 
 #java --version
 
-apt-get install fontconfig openjdk-17-jre
+sudo apt-get install fontconfig openjdk-17-jre
 # install java dependency to install jenkins
 
 #sudo apt install default-jre -y
